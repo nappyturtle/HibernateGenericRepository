@@ -21,6 +21,7 @@ public class ProductRepositoryImpl extends GenericRepositoryImpl<Product> {
 
     public List<Product> getByNameAndId(List<String> names, List<String> ids) {
         Map<String, List<String>> keyValues = new HashMap<>();
+        
         keyValues.put("id", ids);
         keyValues.put("name", names);
         return searchExactColumn(keyValues, "AND", false);

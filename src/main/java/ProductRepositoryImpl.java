@@ -12,7 +12,7 @@ public class ProductRepositoryImpl extends GenericRepositoryImpl<Product> {
     }
 
     public void updateName(Product product) {
-        updateProperties(product, "name1");
+        updateProperties(product, "name3");
     }
 
     public void updateCategory(Product product) {

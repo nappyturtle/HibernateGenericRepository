@@ -1,5 +1,4 @@
 import model.Product;
-import org.hibernate.SessionFactory;
 import repository.generic.impl.GenericRepositoryImpl;
 
 import java.util.HashMap;
